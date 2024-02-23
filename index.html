@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seonmi Jung</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image/x-icon" href="./images/favicon.png"/>
+</head>
+<body>
+  <div class="topnav">
+    <div class="favicon">
+      <a class="active" href="#home"><img src="./images/favicon.png"/></a>
+    </div>
+    <div class="menu">
+      <a href="#contact">Contact</a>
+      <a href="#projects">Projects</a>
+      <a href="#home">Home</a>
+    </div>
+  </div>
+  <br><br>
+  <center>
+    <div id="home">
+      <h1>Seonmi Jung</h1>
+      <h3 class="fade-in">Hello 👋 I am a your filthy programmer here to help you with your projects 🤪</h3>
+      <button class="button-widget fade-in" onclick="window.location.href='#about'">Learn More</button>
+    </div>
+    <br><br>
+    <div class="card-container">
+      <div class="card" id="about">
+        <br><br>
+        <h1>Personal Information</h1>
+        <br>
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>Seonmi Jung</th>
+          </tr>
+          <tr>
+            <th>Gender</th>
+            <th>Female</th>
+          </tr>
+          <tr>
+            <th>Nationality</th>
+            <th>Korean</th>
+          </tr>
+          <tr>
+            <th>Languages</th>
+            <th><a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank">Python</a>, <a href="https://en.wikipedia.org/wiki/C%2B%2B" target="_blank">C++</a>, <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a></th>
+          </tr>
+        </table>
+        <br>
+        <h3>Supported Languages: English, Spanish, Korean, Mandarin</h3>
+        <br><br>
+      </div>
+    </div>
+    <div id="projects">
+      <br><br>
+      <h1>Projects</h1>
+      <h3>Here are some of my major works, with them either being developed or is finished.</h3><br>
+    </div>
+    <div class="project-section">
+      <div class="project">
+        <h2>Minecraft</h2>
+        <img src="./images/minecraft.png" alt="Minecraft Logo" width="30%" height="30%"/>
+        <p>A simple Minecraft clone that ressembles its original game: Cave Game. Created with Python and C++.</p>
+        <button class="button-widget-diff" onclick="window.open('https://github.com/Jesseonmi/minecraft', '_blank')">Take me there!</button>
+        <br><br>
+      </div>
+      <div class="project">
+        <h2>PyC++</h2>
+        <img src="./images/pyc++.png" alt="PyC++ Logo" width="30%" height="30%"/>
+        <p>A simple tool to use Python libraries such as Tkinter, Flask, OpenAI, etc. in C++. Single header only, written in pure C++.</p>
+        <button class="button-widget-diff" onclick="window.open('https://github.com/Jesseonmi/pycpp', '_blank')">Take me there!</button>
+        <br><br>
+      </div>
+      <div class="project">
+        <h2>USACO Folder</h2>
+        <img src="./images/usaco.png" alt="USACO Logo" width="40%" height="40%"/>
+        <br>
+        <p>I've been recently rushing for USACO. Check out my solutions to different platforms, my progress, my daily solutions and more! Good for nosey people.</p>
+        <button class="button-widget-diff" onclick="window.open('https://github.com/Jesseonmi/usaco', '_blank')">Take me there!</button><br><br>
+      </div>
+    </div>
+  </div>
+  <br><br><br>
+  <div id="contact" class="card-container">
+    <div class="card">
+      <br>
+      <h1>Contact Information</h1>
+      <h3>Bugs or problems on using this portfolio web? Do you need me for your projects? Contact me on the group</h3>
+      <br>
+      <button class="button-widget-diff" onclick="copyDiscordUsername();">Copy Discord Username</button><br><br><button class="button-widget-diff" onclick="window.location.href='mailto:seonmijung0519@yahoo.com'">Send Email (Default App)</button><br><br><br>
+    </div>
+  </div>
+  </center>
+  <script src="./script.js"></script>
+  <noscript>Sorry, but you will have trouble running this portfolio website if your browser blocks JavaScript. You can enable it any time in your browser's settings.</noscript>
+</body>
+</html>
